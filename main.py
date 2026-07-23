@@ -612,8 +612,17 @@ I am your content management bot. Access various categories with daily limits.
 """
     
     keyboard = [
-        [InlineKeyboardButton("📸 Photos", callback_data='category_photos'),
-         InlineKeyboardButton("🇮🇳🇵🇰 India & Pakistan", callback_data='category_india_pakistan')],
-        [InlineKeyboardButton("📁 Files", callback_data='category_files'),
-         InlineKeyboardButton("🔗 Links", callback_data='category_links')],
-        [InlineKeyboardBu
+    [InlineKeyboardButton("📸 Photos", callback_data='category_photos')],
+    [InlineKeyboardButton("🇮🇳🇵🇰 India & Pakistan", callback_data='category_india_pakistan')],
+    [InlineKeyboardButton("📁 Files", callback_data='category_files')],
+    [InlineKeyboardButton("🔗 Links", callback_data='category_links')],
+    [InlineKeyboardButton("🎥 Candid", callback_data='category_candid')],
+    [InlineKeyboardButton("📹 CCTV", callback_data='category_cctv')],
+    [InlineKeyboardButton("🇬🇧 English", callback_data='category_english')],
+    [InlineKeyboardButton("🎞️ Cppz", callback_data='category_cppz')],
+    [InlineKeyboardButton("🏳️‍🌈 Gay", callback_data='category_gay')],
+    [InlineKeyboardButton("🌑 Dark", callback_data='category_dark')],
+    [InlineKeyboardButton("👩‍❤️‍👩 Lesbo", callback_data='category_lesbo')],
+    [InlineKeyboardButton("📊 Daily Access", callback_data='check_access')],
+    [InlineKeyboardButton("📩 Contact Admin", url=admin_contact)]
+    ]
